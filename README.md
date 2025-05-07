@@ -35,7 +35,7 @@ std::string lcsStr = lcs::subsequence("abdabacfgih", "adicabafgzh");
 
 ## Example
 
-If the strings are str1 = `abdabacfgih` and str2 = `adicabafgzh` then LCS = `adabafgh` as 
+If the strings are str<sub>1</sub> = `abdabacfgih` and str<sub>2</sub> = `adicabafgzh` then LCS = `adabafgh` as 
 highlighted by bold boundary cells in figure below,
 
 <p align="center">
@@ -46,5 +46,5 @@ highlighted by bold boundary cells in figure below,
 
 The code is licenced under the [MIT License](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LICENSE).</br>
 The tutorial document [LongestCommonSubsequence.pdf](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LongestCommonSubsequence.pdf) and 
-[LCMImage.png are](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LCSImage.png) 
-licensed under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+[LCSImage.png](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LCSImage.png) 
+are licensed under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
