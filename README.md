@@ -1,12 +1,50 @@
-# Longest Common Subsequence (LCS)
+# Longest Common Subsequence
 
-## Introduction
-Longest common subsequence is longest subsequence common among all sequences. It is different from substring in a way that it doesn’t have to include characters of continuous position. It is used in data comparison, bioinformatics and in computational linguistics. It is also used by version control system.
+<p align="justify">If two or more than two sequences have same elements in same order these elements as a combine 
+are called the common subsequence. These sequences may have more than one common 
+subsequence and the longest subsequence among these sub-sequences is called longest common subsequence.
 
-## Dynamic programming approach
-Dynamic programming offers solution of longest common subsequence problem in polynomial time complexity. Dynamic programming breaks down problem in simple sub-problems in recursive manner and then optimally finds solution of sub-problems to find optimal solution of original problem.
+The longest common subsequence (LCS) is a concept applicable to any type of sequences and 
+not only associated with strings but strings are used almost all the time to explain the longest common subsequence.
 
-## Contents of repository
-**LongestCommonSubsequence.pdf** is detailed tutorial document of dynamic programming approach to solve longest common subsequence problem. It explain concept in very detail with pictorial example and include detailed explanation of table creation process and parsing the table to find LCS in step by step manner.
+Longest common subsequence between two sequences can be found in O(m &times; n) 
+polynomial time complexity and requires O(m &times; n) space complexity with dynamic programming approach.
+</p>
 
-**C++ code** is available in **Implementation** folder under **MIT License**. 
+
+## Tutorial Document
+
+<p align="justify">Tutorial document 
+<a href="https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LongestCommonSubsequence.pdf">LongestCommonSubsequence.pdf</a> 
+explains the longest common subsequence in detail. Document first introduce the longest common subsequence (LCS) then 
+explains logic of the dynamic programming approach to find the LCS among two strings and 
+compares it with naïve approach and explains how dynamic programming approach is efficient 
+and practical approach for real world problems. It then discusses table creation of order m × n 
+which is crucial step and then traversal of the table in bottom-up approach to finally find the LCS.
+
+Tutorial document uses a lot of pictorial representation.
+</p>
+
+## Usage
+
+<p align="justify">This implementation can be used to find the LCS among the two strings. LCS can be found by calling a function as follows,</p>
+
+```cpp
+std::string lcsStr = lcs::subsequence("abdabacfgih", "adicabafgzh");
+```
+
+## Example
+
+If the strings are str1 = `abdabacfgih` and str2 = `adicabafgzh` then LCS = `adabafgh` as 
+highlighted by bold boundary cells in figure below,
+
+<p align="center">
+<img src="https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LCSImage.png" alt="LCS of two strings.">
+</p>
+
+## License
+
+The code is licenced under the [MIT License](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LICENSE).</br>
+The tutorial document [LongestCommonSubsequence.pdf](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LongestCommonSubsequence.pdf) and 
+[LCMImage.png are](https://github.com/vikasawadhiya/Longest-Common-Subsequence/blob/main/LCSImage.png) 
+licensed under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
