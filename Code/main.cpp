@@ -30,7 +30,14 @@
 using namespace std;
 
 
+string s1, s2;
+
 int main(){
 
-    cout << "lcs = " << lcs::subsequence("abdabacfgih", "adicabafgzh") << '\n';
+	cout << "Ingrese la primera cadena de caracteres: ";
+	cin >> s1;
+	cout << "Ingrese la segunda cadena de caracteres: ";
+	cin >> s2;
+
+    cout << "lcs = " << lcs::subsequence(s1, s2) << '\n';
 }
