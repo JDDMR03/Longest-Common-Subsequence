@@ -29,7 +29,6 @@
 
 using namespace std;
 
-
 string s1, s2;
 
 int main(){
@@ -39,5 +38,12 @@ int main(){
 	cout << "Ingrese la segunda cadena de caracteres: ";
 	cin >> s2;
 
-    cout << "lcs = " << lcs::subsequence(s1, s2) << '\n';
+	string lcs = lcs::subsequence(s1, s2);
+
+	if(lcs != 0){
+		cout << "lcs = " << lcs::subsequence(s1, s2) << '\n';
+	}
+	else {
+		cout << "No se encontró ninguna subsecuencia";
+	}
 }
