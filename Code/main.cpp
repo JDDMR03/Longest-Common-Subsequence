@@ -40,10 +40,10 @@ int main(){
 
 	string lcs = lcs::subsequence(s1, s2);
 
-	if(lcs != 0){
-		cout << "lcs = " << lcs::subsequence(s1, s2) << '\n';
+	if(lcs.size() != 0){
+		cout << "lcs = " << lcs << '\n';
 	}
 	else {
-		cout << "No se encontró ninguna subsecuencia";
+		cout << "No se encontró ninguna subsecuencia común";
 	}
 }

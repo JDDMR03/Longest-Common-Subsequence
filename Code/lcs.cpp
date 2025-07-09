@@ -24,10 +24,7 @@
 
 #include "lcs.hpp"
 
-#include <vector>
-
 using namespace std;
-
 
 namespace {
 

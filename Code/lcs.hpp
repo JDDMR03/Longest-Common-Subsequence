@@ -26,6 +26,7 @@
 #define LCS_HPP
 
 #include <string>
+#include <vector>
 
 namespace lcs{
 
